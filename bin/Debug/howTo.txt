@@ -1,0 +1,9 @@
+S¹ dwa tryby: edycji kszta³tów obu graczy oraz symulacji
+
+//na przycisk ESCAPE zamykamy okno rozgrywki
+//na wciœniêcie SPACE wchodzimy w tryb symulacji lub edycji
+//na wciœniêcie ENTER zmieniamy gracza
+//na wciœniêcie TAB zmieniamy kszta³t - dzia³a tylko w trybie edycji
+//na wciœniêcie A zmieniamy regu³y komórek dla pierwszego gracza
+//na wciœniêcie B zmieniamy regu³y komórek dla drugiego gracza
+//przy klikniêciu przyciskiem myszy ustawiamy komórki gracza

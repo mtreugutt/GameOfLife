@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GameOfLife" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/GameOfLife" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../../MinGW/allegro-5.0.10-mingw-4.7.0/include" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add library="../../../../../MinGW/allegro-5.0.10-mingw-4.7.0/lib/liballegro-5.0.10-mt-debug.a" />
+					<Add library="../../../../../MinGW/allegro-5.0.10-mingw-4.7.0/lib/liballegro_primitives-5.0.10-mt-debug.a" />
+					<Add library="../../../../../MinGW/allegro-5.0.10-mingw-4.7.0/lib/liballegro_font-5.0.10-mt-debug.a" />
+					<Add library="../../../../../MinGW/allegro-5.0.10-mingw-4.7.0/lib/liballegro_ttf-5.0.10-mt-debug.a" />
+					<Add library="../../../../../MinGW/allegro-5.0.10-mingw-4.7.0/lib/liballegro_dialog-5.0.10-mt-debug.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GameOfLife" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+					<Add directory="src" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/MinGW/allegro-5.0.10-mingw-4.7.0/lib/liballegro_audio-5.0.10-mt.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="src/Cell.cpp" />
+		<Unit filename="src/Cell.h" />
+		<Unit filename="src/Dimensional.cpp" />
+		<Unit filename="src/Dimensional.h" />
+		<Unit filename="src/Display.cpp" />
+		<Unit filename="src/Display.h" />
+		<Unit filename="src/EventHandler.cpp" />
+		<Unit filename="src/EventHandler.h" />
+		<Unit filename="src/EventListener.cpp" />
+		<Unit filename="src/EventListener.h" />
+		<Unit filename="src/GUI.cpp" />
+		<Unit filename="src/GUI.h" />
+		<Unit filename="src/Grid.cpp" />
+		<Unit filename="src/Grid.h" />
+		<Unit filename="src/Main.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Player.h" />
+		<Unit filename="src/Rules.cpp" />
+		<Unit filename="src/Rules.h" />
+		<Unit filename="src/Timer.cpp" />
+		<Unit filename="src/Timer.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

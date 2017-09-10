@@ -1,0 +1,1001 @@
+# depslib dependency file v1.0
+1496522082 source:c:\users\jksa\documents\codeblocks\gameoflife\src\ main.cpp
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1489006043 c:\mingw\include\errno.h
+	<_mingw.h>
+	"ptw32_errno.h"
+
+1489006043 c:\mingw\include\_mingw.h
+	<msvcrtver.h>
+	<w32api.h>
+
+1489006043 c:\mingw\include\msvcrtver.h
+	<_mingw.h>
+
+1489006054 c:\mingw\include\w32api.h
+	<sdkddkver.h>
+
+1489006054 c:\mingw\include\sdkddkver.h
+
+1471775688 c:\mingw\include\ptw32_errno.h
+	<_ptw32.h>
+	<errno.h>
+	<winsock.h>
+
+1471775688 c:\mingw\include\_ptw32.h
+	"ptw32_errno.h"
+
+1489006054 c:\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1489006054 c:\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1489006054 c:\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1489006054 c:\mingw\include\winuser.h
+	<dbt.h>
+
+1489006054 c:\mingw\include\dbt.h
+	<windef.h>
+
+1489006054 c:\mingw\include\windef.h
+	<w32api.h>
+	<winnt.h>
+
+1489006054 c:\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1489006054 c:\mingw\include\winerror.h
+
+1489006043 c:\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+	<strings.h>
+	"strings.h"
+	"wchar.h"
+
+1489006043 c:\mingw\include\strings.h
+	<_mingw.h>
+	<stddef.h>
+
+1489006043 c:\mingw\include\wchar.h
+	<_mingw.h>
+	<wctype.h>
+	<sys/types.h>
+	"stdio.h"
+	"stdlib.h"
+	"direct.h"
+	"sys/stat.h"
+	"io.h"
+	"time.h"
+	"locale.h"
+	"process.h"
+
+1489006043 c:\mingw\include\wctype.h
+	<_mingw.h>
+	<stddef.h>
+
+1489006043 c:\mingw\include\sys\types.h
+	<_mingw.h>
+	<stddef.h>
+
+1489006043 c:\mingw\include\stdio.h
+	<_mingw.h>
+	<stddef.h>
+	"sys/types.h"
+	"stdarg.h"
+	<locale.h>
+
+1489006043 c:\mingw\include\locale.h
+	<_mingw.h>
+	<stddef.h>
+
+1489006043 c:\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+	<locale.h>
+
+1489006043 c:\mingw\include\direct.h
+	"dos.h"
+
+1489006043 c:\mingw\include\dos.h
+	"io.h"
+
+1489006043 c:\mingw\include\io.h
+	<_mingw.h>
+	<sys/types.h>
+	"stdint.h"
+
+1489006043 c:\mingw\include\stdint.h
+	<_mingw.h>
+	<stddef.h>
+
+1489006043 c:\mingw\include\sys\stat.h
+	<sys/types.h>
+
+1489006043 c:\mingw\include\time.h
+	<sys/types.h>
+	<_mingw.h>
+	<stddef.h>
+
+1489006043 c:\mingw\include\process.h
+	<_mingw.h>
+	<sys/types.h>
+	"stdint.h"
+
+1489006054 c:\mingw\include\basetsd.h
+
+1489006054 c:\mingw\include\pshpack4.h
+
+1489006054 c:\mingw\include\poppack.h
+
+1489006054 c:\mingw\include\winver.h
+
+1489006054 c:\mingw\include\dde.h
+
+1489006054 c:\mingw\include\dlgs.h
+
+1489006054 c:\mingw\include\commctrl.h
+	<prsht.h>
+
+1489006054 c:\mingw\include\prsht.h
+
+1489006054 c:\mingw\include\wincon.h
+
+1489006054 c:\mingw\include\winbase.h
+
+1489006054 c:\mingw\include\wingdi.h
+
+1489006054 c:\mingw\include\winnls.h
+
+1489006054 c:\mingw\include\winnetwk.h
+
+1489006054 c:\mingw\include\winreg.h
+
+1489006054 c:\mingw\include\winsvc.h
+
+1489006054 c:\mingw\include\cderr.h
+
+1489006054 c:\mingw\include\ddeml.h
+
+1489006054 c:\mingw\include\imm.h
+
+1489006054 c:\mingw\include\lzexpand.h
+
+1489006054 c:\mingw\include\mmsystem.h
+
+1489006054 c:\mingw\include\nb30.h
+
+1489006054 c:\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1489006054 c:\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1489006054 c:\mingw\include\basetyps.h
+
+1489006054 c:\mingw\include\rpcdcep.h
+
+1489006054 c:\mingw\include\rpcnsi.h
+
+1489006054 c:\mingw\include\rpcnterr.h
+
+1489006043 c:\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1489006054 c:\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1489006054 c:\mingw\include\pshpack2.h
+
+1489006054 c:\mingw\include\winperf.h
+
+1489006054 c:\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1489006054 c:\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1489006054 c:\mingw\include\objfwd.h
+	<basetyps.h>
+
+1489006054 c:\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1489006054 c:\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1489006054 c:\mingw\include\rpcnsip.h
+
+1489006054 c:\mingw\include\winspool.h
+
+1489006054 c:\mingw\include\winsock2.h
+	<windows.h>
+
+1489006054 c:\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1489006054 c:\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1489006054 c:\mingw\include\objidl.h
+	<objfwd.h>
+
+1489006054 c:\mingw\include\cguid.h
+
+1489006054 c:\mingw\include\olectlid.h
+
+1489006054 c:\mingw\include\oleauto.h
+	<oaidl.h>
+
+1489006054 c:\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1489006054 c:\mingw\include\oleidl.h
+	<objfwd.h>
+
+1489006054 c:\mingw\include\mswsock.h
+
+1489006043 c:\mingw\include\limits.h
+	<_mingw.h>
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1372625928 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alplatf.h
+
+1368966308 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1489006043 c:\mingw\include\conio.h
+	<_mingw.h>
+
+1489006043 c:\mingw\include\fcntl.h
+	<_mingw.h>
+	<io.h>
+
+1489006043 c:\mingw\include\malloc.h
+	<_mingw.h>
+	<stdlib.h>
+
+1368966308 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1368966308 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1368966308 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1489006043 c:\mingw\include\unistd.h
+	<_mingw.h>
+	"io.h"
+	"process.h"
+	"getopt.h"
+
+1489006043 c:\mingw\include\getopt.h
+	<_mingw.h>
+
+1368966308 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1368966308 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\alunix.h
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1489006043 c:\mingw\include\inttypes.h
+	<_mingw.h>
+	<stdint.h>
+	<stddef.h>
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\color.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\path.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1372624684 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\blender.h
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\config.h
+	"allegro5/file.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1489006043 c:\mingw\include\assert.h
+	<_mingw.h>
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\error.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1368966308 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\fullscreen_mode.h
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\keycodes.h
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\memory.h
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\monitor.h
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\timer.h
+	"allegro5/base.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\alcompat.h
+
+1496515450 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_native_dialog.h
+	"allegro5/allegro.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1496515449 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_image.h
+
+1489006043 c:\mingw\include\math.h
+	<_mingw.h>
+
+1496515450 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_color.h
+	"allegro5/allegro.h"
+
+1496515449 c:\mingw\include\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/altime.h"
+	"allegro5/bitmap.h"
+	"allegro5/bitmap_draw.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap_lock.h"
+	"allegro5/blender.h"
+	"allegro5/color.h"
+	"allegro5/config.h"
+	"allegro5/debug.h"
+	"allegro5/display.h"
+	"allegro5/drawing.h"
+	"allegro5/error.h"
+	"allegro5/events.h"
+	"allegro5/file.h"
+	"allegro5/fixed.h"
+	"allegro5/fmaths.h"
+	"allegro5/fshook.h"
+	"allegro5/fullscreen_mode.h"
+	"allegro5/joystick.h"
+	"allegro5/keyboard.h"
+	"allegro5/memory.h"
+	"allegro5/monitor.h"
+	"allegro5/mouse.h"
+	"allegro5/mouse_cursor.h"
+	"allegro5/path.h"
+	"allegro5/system.h"
+	"allegro5/threads.h"
+	"allegro5/timer.h"
+	"allegro5/tls.h"
+	"allegro5/transformations.h"
+	"allegro5/utf8.h"
+	"allegro5/alcompat.h"
+
+1496515449 c:\mingw\include\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1496515450 c:\mingw\include\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1496515451 c:\mingw\include\allegro5\platform\alplatf.h
+
+1496515451 c:\mingw\include\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1496515451 c:\mingw\include\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1496515451 c:\mingw\include\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1496515451 c:\mingw\include\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1496515451 c:\mingw\include\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1496515451 c:\mingw\include\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1496515451 c:\mingw\include\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1496515451 c:\mingw\include\allegro5\platform\alunix.h
+
+1496515451 c:\mingw\include\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1496515451 c:\mingw\include\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1496515449 c:\mingw\include\allegro5\altime.h
+	"allegro5/base.h"
+
+1496515449 c:\mingw\include\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1496515449 c:\mingw\include\allegro5\color.h
+	"allegro5/base.h"
+
+1496515449 c:\mingw\include\allegro5\bitmap_draw.h
+	"allegro5/bitmap.h"
+
+1496515450 c:\mingw\include\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1496515449 c:\mingw\include\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1496515449 c:\mingw\include\allegro5\path.h
+	"allegro5/base.h"
+
+1496515449 c:\mingw\include\allegro5\utf8.h
+	"allegro5/base.h"
+
+1496515450 c:\mingw\include\allegro5\bitmap_lock.h
+	"allegro5/bitmap.h"
+
+1496515449 c:\mingw\include\allegro5\blender.h
+
+1496515449 c:\mingw\include\allegro5\config.h
+	"allegro5/file.h"
+
+1496515449 c:\mingw\include\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1496515449 c:\mingw\include\allegro5\display.h
+	"allegro5/bitmap.h"
+	"allegro5/color.h"
+	"allegro5/events.h"
+
+1496515449 c:\mingw\include\allegro5\events.h
+	"allegro5/altime.h"
+
+1496515449 c:\mingw\include\allegro5\drawing.h
+	"allegro5/color.h"
+
+1496515449 c:\mingw\include\allegro5\error.h
+	"allegro5/base.h"
+
+1496515449 c:\mingw\include\allegro5\fixed.h
+	"allegro5/base.h"
+
+1496515450 c:\mingw\include\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1496515451 c:\mingw\include\allegro5\inline\fmaths.inl
+	"allegro5/error.h"
+
+1496515449 c:\mingw\include\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/file.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1496515449 c:\mingw\include\allegro5\fullscreen_mode.h
+
+1496515449 c:\mingw\include\allegro5\joystick.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1496515449 c:\mingw\include\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+	"allegro5/keycodes.h"
+
+1496515449 c:\mingw\include\allegro5\keycodes.h
+
+1496515449 c:\mingw\include\allegro5\memory.h
+
+1496515450 c:\mingw\include\allegro5\monitor.h
+
+1496515450 c:\mingw\include\allegro5\mouse.h
+	"allegro5/base.h"
+	"allegro5/events.h"
+
+1496515449 c:\mingw\include\allegro5\mouse_cursor.h
+	"allegro5/base.h"
+
+1496515449 c:\mingw\include\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1496515450 c:\mingw\include\allegro5\threads.h
+	"allegro5/altime.h"
+
+1496515449 c:\mingw\include\allegro5\timer.h
+	"allegro5/base.h"
+
+1496515449 c:\mingw\include\allegro5\tls.h
+	"allegro5/base.h"
+
+1496515449 c:\mingw\include\allegro5\transformations.h
+	"allegro5/display.h"
+
+1496515449 c:\mingw\include\allegro5\alcompat.h
+
+1496515449 c:\mingw\include\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1498399267 source:c:\users\jksa\documents\codeblocks\gameoflife\src\cell.cpp
+	"Cell.h"
+
+1498399853 c:\users\jksa\documents\codeblocks\gameoflife\src\cell.h
+	"Dimensional.h"
+	<allegro5/allegro_primitives.h>
+
+1498400338 c:\users\jksa\documents\codeblocks\gameoflife\src\dimensional.h
+
+1496584841 source:c:\users\jksa\documents\codeblocks\gameoflife\src\dimensional.cpp
+	"Dimensional.h"
+
+1498404068 source:c:\users\jksa\documents\codeblocks\gameoflife\src\display.cpp
+	"Display.h"
+
+1498404189 c:\users\jksa\documents\codeblocks\gameoflife\src\display.h
+	<allegro5/allegro.h>
+	"Dimensional.h"
+
+1498404379 source:c:\users\jksa\documents\codeblocks\gameoflife\src\grid.cpp
+	"Grid.h"
+
+1498404498 c:\users\jksa\documents\codeblocks\gameoflife\src\grid.h
+	<allegro5/allegro_primitives.h>
+	"Dimensional.h"
+	"Cell.h"
+	"Display.h"
+
+1498405304 source:c:\users\jksa\documents\codeblocks\gameoflife\src\main.cpp
+	<allegro5/allegro.h>
+	"Display.h"
+	"Grid.h"
+	"Timer.h"
+	"EventListener.h"
+	"Player.h"
+	"GUI.h"
+	<iostream>
+
+1498396231 source:c:\users\jksa\documents\codeblocks\gameoflife\src\eventlistener.cpp
+	"EventListener.h"
+
+1498400373 c:\users\jksa\documents\codeblocks\gameoflife\src\eventlistener.h
+	<allegro5/allegro.h>
+	"EventHandler.h"
+	"GUI.h"
+
+1497147584 source:c:\users\jksa\documents\codeblocks\gameoflife\src\timer.cpp
+	"Timer.h"
+
+1496596646 c:\users\jksa\documents\codeblocks\gameoflife\src\timer.h
+	<allegro5/allegro.h>
+
+1498398833 source:c:\users\jksa\documents\codeblocks\gameoflife\src\eventhandler.cpp
+	"EventHandler.h"
+
+1498399951 c:\users\jksa\documents\codeblocks\gameoflife\src\eventhandler.h
+	"Grid.h"
+	"Player.h"
+	"Rules.h"
+	"GUI.h"
+	<algorithm>
+	<list>
+	<map>
+
+1498405806 source:c:\users\jksa\documents\codeblocks\gameoflife\src\player.cpp
+	"Player.h"
+
+1498405819 c:\users\jksa\documents\codeblocks\gameoflife\src\player.h
+	<allegro5/allegro_primitives.h>
+	"Cell.h"
+	"Rules.h"
+	<list>
+
+1498405661 source:c:\users\jksa\documents\codeblocks\gameoflife\src\gui.cpp
+	"GUI.h"
+
+1498405567 c:\users\jksa\documents\codeblocks\gameoflife\src\gui.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"Display.h"
+	"Grid.h"
+	"Player.h"
+
+1496515449 c:\mingw\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1496515449 c:\mingw\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
+1498405889 c:\users\jksa\documents\codeblocks\gameoflife\src\rules.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<list>
+
+1498311040 source:c:\users\jksa\documents\codeblocks\gameoflife\src\rules.cpp
+	"Rules.h"
+
+1505070792 source:c:\users\weronika\documents\codeblocks\gameoflife\src\cell.cpp
+	"Cell.h"
+
+1505070521 c:\users\weronika\documents\codeblocks\gameoflife\src\cell.h
+	"Dimensional.h"
+	<allegro5/allegro_primitives.h>
+
+1498400338 c:\users\weronika\documents\codeblocks\gameoflife\src\dimensional.h
+
+1496584841 source:c:\users\weronika\documents\codeblocks\gameoflife\src\dimensional.cpp
+	"Dimensional.h"
+
+1498404068 source:c:\users\weronika\documents\codeblocks\gameoflife\src\display.cpp
+	"Display.h"
+
+1498404189 c:\users\weronika\documents\codeblocks\gameoflife\src\display.h
+	<allegro5/allegro.h>
+	"Dimensional.h"
+
+1505070989 source:c:\users\weronika\documents\codeblocks\gameoflife\src\eventhandler.cpp
+	"EventHandler.h"
+
+1498407108 c:\users\weronika\documents\codeblocks\gameoflife\src\eventhandler.h
+	"Grid.h"
+	"Player.h"
+	"Rules.h"
+	"GUI.h"
+	<algorithm>
+	<list>
+	<map>
+
+1498404498 c:\users\weronika\documents\codeblocks\gameoflife\src\grid.h
+	<allegro5/allegro_primitives.h>
+	"Dimensional.h"
+	"Cell.h"
+	"Display.h"
+
+1498405819 c:\users\weronika\documents\codeblocks\gameoflife\src\player.h
+	<allegro5/allegro_primitives.h>
+	"Cell.h"
+	"Rules.h"
+	<list>
+
+1505057665 c:\users\weronika\documents\codeblocks\gameoflife\src\rules.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<list>
+
+1498407147 c:\users\weronika\documents\codeblocks\gameoflife\src\gui.h
+	<allegro5/allegro.h>
+	<allegro5/allegro_font.h>
+	<allegro5/allegro_ttf.h>
+	"Display.h"
+	"Grid.h"
+	"Player.h"
+
+1505067571 source:c:\users\weronika\documents\codeblocks\gameoflife\src\eventlistener.cpp
+	"EventListener.h"
+
+1505068036 c:\users\weronika\documents\codeblocks\gameoflife\src\eventlistener.h
+	<allegro5/allegro.h>
+	"EventHandler.h"
+	"GUI.h"
+
+1498404379 source:c:\users\weronika\documents\codeblocks\gameoflife\src\grid.cpp
+	"Grid.h"
+
+1498405661 source:c:\users\weronika\documents\codeblocks\gameoflife\src\gui.cpp
+	"GUI.h"
+
+1505063138 source:c:\users\weronika\documents\codeblocks\gameoflife\src\main.cpp
+	<allegro5/allegro.h>
+	"Display.h"
+	"Grid.h"
+	"Timer.h"
+	"EventListener.h"
+	"Player.h"
+	"GUI.h"
+
+1498407355 c:\users\weronika\documents\codeblocks\gameoflife\src\timer.h
+	<allegro5/allegro.h>
+
+1505059333 source:c:\users\weronika\documents\codeblocks\gameoflife\src\player.cpp
+	"Player.h"
+
+1505061104 source:c:\users\weronika\documents\codeblocks\gameoflife\src\rules.cpp
+	"Rules.h"
+
+1505057004 source:c:\users\weronika\documents\codeblocks\gameoflife\src\timer.cpp
+	"Timer.h"
+
+1372624732 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1362327500 c:\mingw\allegro-5.0.10-mingw-4.7.0\include\allegro5\allegro_ttf.h
+	"allegro5/allegro.h"
+	"allegro5/allegro_font.h"
+
